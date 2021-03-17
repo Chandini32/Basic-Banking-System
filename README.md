@@ -1,4 +1,4 @@
-# Basic-Banking-System
+# Basic-Banking-System for Sparks Foundation.
 
 A simple dynamic Website which has the following specs.
 >Start with creating a dummy data in database for upto 10 customers.Customers table will have basic fiels such as name,email,current balance etc.

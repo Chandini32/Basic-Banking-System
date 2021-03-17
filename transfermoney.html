@@ -1,0 +1,85 @@
+<html>
+<head> <title> Transfer Money </title>
+<style>
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 500px;
+height: 500px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+.button {
+  background-color:Black ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover
+{
+	background-color: #669900;
+	color:#000;
+}
+ul
+{
+float:right;
+list-style-type: none;
+margin-top:25px;
+}
+
+ul li
+{
+	display:inline-block;
+}
+ul li a
+{
+text-decoration:none;
+color:#000000;
+padding:5px 20px;
+border:1px rigid #bfbfbf;
+transition: 0.6s ease;
+}
+ul li a:hover
+{
+	background-color: #669900;
+	color:#000;
+}
+</style>
+</head>
+ <body style=background-color:#00b3b3>
+<ul>
+<li><B><a href="index.html">Home</a></B></li>
+</ul>
+<br><br><br>
+<h2><center>Transfer Money</center></h2>
+<table align="center">
+<tr>
+<td>Transfer From: <input type="text" name="name" value="" placeholder="enter senders name"></td>
+</tr>
+<tr>
+<td>Transfer To: <input type="text" name="name" value="" placeholder= "enter receivers name" ></td>
+</tr>
+<tr>
+<td>Amount: <input type="text" name="name" value="" placeholder="enter amount" ></td>
+</tr>
+</table>
+<br>
+<center><a href="history.html" class="button" onclick="myFunction()" ><B>Transfer</B></a></center>
+<script>
+function myFunction() {
+  alert(" Transaction successful! ");
+}
+</script>
+</body>
+</html>
